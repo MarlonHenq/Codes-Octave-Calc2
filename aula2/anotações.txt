@@ -1,0 +1,32 @@
+colormap ("<MAP>");
+
+Adiciona um mapa de cores para o gráfico
+
+TIPO DE MAPS
+
+Map	Description
+viridis	default
+jet	colormap traversing blue, cyan, green, yellow, red.
+cubehelix	colormap traversing black, blue, green, red, white with increasing intensity.
+hsv	cyclic colormap traversing Hue, Saturation, Value space.
+rainbow	colormap traversing red, yellow, blue, green, violet.
+————-	———————————————————————————————
+hot	colormap traversing black, red, orange, yellow, white.
+cool	colormap traversing cyan, purple, magenta.
+spring	colormap traversing magenta to yellow.
+summer	colormap traversing green to yellow.
+autumn	colormap traversing red, orange, yellow.
+winter	colormap traversing blue to green.
+————-	———————————————————————————————
+gray	colormap traversing black to white in shades of gray.
+bone	colormap traversing black, gray-blue, white.
+copper	colormap traversing black to light copper.
+pink	colormap traversing black, gray-pink, white.
+ocean	colormap traversing black, dark-blue, white.
+————-	———————————————————————————————
+colorcube	equally spaced colors in RGB color space.
+flag	cyclic 4-color map of red, white, blue, black.
+lines	cyclic colormap with colors from axes "ColorOrder" property.
+prism	cyclic 6-color map of red, orange, yellow, green, blue, violet.
+————-	———————————————————————————————
+white	all white colormap (no colors).
