@@ -1,6 +1,6 @@
 close all
 clear
-[x,y] = meshgrid(-3:0.01:3,-3:0.01:3)
+[x,y] = meshgrid(-3:0.05:3,-3:0.05:3)
 
 figure
 
