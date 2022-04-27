@@ -6,10 +6,16 @@ close all
 figure
 
 %u = e.^(2*x.^2 - y.^2);
-u = x.^2+y.^2-2*x
+u = 4*x.^2+y.^2-2*x
 surf(x,y,u) % Plota primeira figura (curva)
 hold on % hold all muda a cor sozinho
 axis([-8 10 -11 11 -1 12]) % axis([xmin xmax ymin ymax zmin zmax])
+hold on
+
+
+
+surf(x, y, zeros(45,37))
+
 hold on
 
 t = meshgrid(-2:0.05:2)
@@ -21,7 +27,6 @@ y = 3+3/sqrt(13)*t*4
 z = x.^2+y.^2-2*x
 
 plot3(x,y,z, '*r')
-
 
 
 hold on 
